@@ -18,11 +18,11 @@ void write_color(std::ostream& out, const color& pixel_color, int samples_per_pi
     auto g = pixel_color.y();
     auto b = pixel_color.z();
 
-    //Divide the color by the number of samples
+    //Divide the color by the number of samples and gamma-correct for gamma=2.0
     auto scale = 1.0 / samples_per_pixel;
-    r *= scale;
-    g *= scale;
-    b *= scale;
+    r = sqrt(scale * r);
+    g = sqrt(scale * g);
+    b = sqrt(scale * b);
 
     //Translate the [0,1] component values to the byte range [0,255]
     int rbyte = int(255.999 * r);
