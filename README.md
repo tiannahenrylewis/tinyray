@@ -15,4 +15,4 @@ This will create a render with the filename `image.ppm` in the projects folder.
 
 ---
 
-<img src="./assets/image.jpeg">
+![tinyRay Render](assets/image.jpeg)
