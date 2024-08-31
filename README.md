@@ -15,5 +15,5 @@ This will create a render with the filename `image.ppm` in the projects folder.
 
 ---
 &nbsp;
-![tinyRay Render](assets/image.jpeg)
+![tinyRay Render](assets/image.jpeg)  
 *tinyRay Render*
