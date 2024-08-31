@@ -15,4 +15,4 @@ This will create a render with the filename `image.ppm` in the projects folder.
 
 ---
 
-![Final Render](./assets/image.png)
+<img src="./assets/image.png">
