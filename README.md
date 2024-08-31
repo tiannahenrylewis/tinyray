@@ -14,5 +14,6 @@ In a terminal navigate to the projects root folder and run the following command
 This will create a render with the filename `image.ppm` in the projects folder.
 
 ---
-
+&nbsp;
 ![tinyRay Render](assets/image.jpeg)
+*tinyRay Render*
